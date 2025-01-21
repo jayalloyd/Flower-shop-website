@@ -96,6 +96,20 @@ header .fa-bars{
         background: #eee;
         border-top: .1rem solid rgba(0,0,0,0.1);
         clip-path: polygon(0 0,100%,100% 0,0 0);
+        /* The CSS code clip-path: polygon(0 0,100% 0,100% 100%,0 100%); defines a clipping path that creates a rectangular shape for the element it's applied to.
+
+Here's a breakdown:
+
+clip-path: This CSS property controls the visible region of an element. It allows you to clip away parts of an element, revealing only the specified portion.
+
+polygon(): This function is used within the clip-path property to define a clipping path using a series of coordinates that form the vertices of a polygon.
+
+0 0, 100% 0, 100% 100%, 0 100%: These are the coordinates that define the four corners of the rectangle:
+
+0 0: Top-left corner (x: 0, y: 0)
+100% 0: Top-right corner (x: 100% of the element's width, y: 0)
+100% 100%: Bottom-right corner (x: 100% of the element's width, y: 100% of the element's height)
+0 100%: Bottom-left corner (x: 0, y: 100% of the element's height) */
     }
     header #toggler:checked ~ .navbar{
         clip-path: polygon(0 0,100%,100% 0,0 0);
