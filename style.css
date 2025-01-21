@@ -171,3 +171,17 @@ polygon(): This function is used within the clip-path property to define a clipp
 .btn:hover{
     background-color: var(--pink);
 }
+.products .box-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+
+}
+.products .box-container .box{
+    flex: 2 2 30rem;
+    box-shadow: .5 .5 rgba(0,0,0,.1);
+    border-radius:.5rem;
+    border: 1rem solid  rgba(0,0,0,.1);
+    position:relative;
+
+}
