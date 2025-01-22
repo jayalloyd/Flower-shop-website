@@ -185,3 +185,26 @@ polygon(): This function is used within the clip-path property to define a clipp
     position:relative;
 
 }
+.footer{
+    position:relative;
+    height: 50px;;
+    width: 100px;
+background-color:rgba(255, 255, 255, 0.1);
+box-shadow: 0 0px 6px rgba(255, 255, 255, 0.5);
+
+
+  }
+.footer .social_media{
+    color:violet;
+    opacity:1;
+    position:fixed;
+    left:50%;
+    bottom: 20px;
+
+}
+.footer .social_media i{
+    color:var(--pink);
+        opacity:1;
+    padding:0 5px;
+
+}
